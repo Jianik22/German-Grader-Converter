@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MastersFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/achieved"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+
+            <EditText
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:inputType="numberDecimal"
+                android:background="@drawable/etbg"
+                android:id="@+id/AchievedEt"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+            </EditText>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/MAX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+
+            <EditText
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:inputType="numberDecimal"
+                android:background="@drawable/etbg"
+                android:id="@+id/maxEt"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+            </EditText>
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/MIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+
+            <EditText
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:inputType="numberDecimal"
+                android:background="@drawable/etbg"
+                android:id="@+id/minEt"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+            </EditText>
+
+
+            <Button
+                android:id="@+id/masters_button"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:text="Calculate"
+                android:background="@drawable/buttonbg"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+            </Button>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:id="@+id/msresultlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:text="Result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Your Score:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/resultv"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/performancetv"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

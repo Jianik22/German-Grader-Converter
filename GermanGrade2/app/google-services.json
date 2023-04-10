@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "300269155609",
+    "firebase_url": "https://german-grade-40b11-default-rtdb.firebaseio.com",
+    "project_id": "german-grade-40b11",
+    "storage_bucket": "german-grade-40b11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300269155609:android:5af2ab331dbbbc338ac188",
+        "android_client_info": {
+          "package_name": "com.techtutorpro.germangrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300269155609-f8tesao90pnd0b4dpdhs0vitnghvqsfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALMgu4UtR5tBCqoeFEE2n4NypGzPnu4Io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300269155609-f8tesao90pnd0b4dpdhs0vitnghvqsfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

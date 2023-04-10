@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">German Grade Converter</string>
+
+
+    <string name="AdMob">ca-app-pub-1872666912018250~3726001402</string>
+    <string name="AdMob_Interstitial">ca-app-pub-1872666912018250/4731961312</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="achieved">Achieved CGPA in your Grading System</string>
+    <string name="MAX">Maximum CGPA in your Grading System</string>
+    <string name="MIN">Minimum CGPA in your Grading System</string>
+
+
+    <string name="verygood"> Very Good (Sehr gut)</string>
+    <string name="good"> Good ( gut)</string>
+    <string name="satisfactory"> Satisfactory(befriedigend)</string>
+    <string name="sufficient"> Sufficient (ausreichend)</string>
+    <string name="failed"> Failed (bestanden)</string>
+</resources>
